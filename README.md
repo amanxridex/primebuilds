@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Prime Builds — London Architectural Construction & Refurbishment
+
+> **Dream Spaces. Built to Last.**  
+> A high-end architectural web application built with **Next.js**, **Apple-level minimalist design**, **3D perspective tilt physics**, tactile **light-mode neumorphism**, and a **monumental 3D typographic footer**.
+
+---
+
+## Overview
+
+**Prime Builds** is an end-to-end luxury web platform for a London-based design and construction practice. Built strictly in **light theme** with curated shades of architectural blue, the platform features:
+
+- **Apple-Grade Minimalist Aesthetics**: Typography powered by Apple system `SF Pro Display`, `SF Pro Text`, and Google's `Inter` variable font with precision tracking and optical kerning.
+- **Strict Design Standards**:
+  - **Zero Glassmorphism**: Clean, solid, opaque surfaces with tactile depth.
+  - **Zero Pills**: Strict geometric architectural radii (`4px` to `8px`) with subtle bevels.
+  - **Zero Star Icons**: Replaced with verified numeric trust ratings (`Score: 9.9/10`, `100% Council Sign-Off`).
+  - **London Only Address**: Registered office strictly positioned as *London, United Kingdom*.
+- **3D & Parallax**:
+  - **3D Parallax Hero**: Mouse-tracking depth layering inspired by high-end architectural layouts.
+  - **3D Tilt Cards**: Interactive perspective transforms responding to mouse position (`transform: perspective(1000px) rotateX(...) rotateY(...) translateZ(...)`).
+  - **Interactive Before & After Slider**: Drag to compare authentic raw, stripped-out construction shells with completed luxury architectural interiors.
+  - **Crazy 3D Modern Footer**: Monumental 3D extruded perspective letters (`PRIME BUILDS`) with multi-layer metallic blue lighting and interactive tilt.
+- **Continuous Ambient Micro-Animations**:
+  - Live London radar beacon indicator.
+  - Ambient shimmer sheen sweeping across primary CTA buttons.
+  - Pulsing handle glow on interactive comparison tools.
+  - Morphing animated hamburger menu on mobile.
+
+---
+
+## Pages & Routes
+
+- **`/` (Home)**: 3D Parallax Hero, Core Disciplines, Before & After Slider, 5-Step Pipeline, Borough Grid, Cost Estimator, Testimonials, Crazy 3D Footer.
+- **`/services` (Services)**: In-depth breakdown of 8 disciplines (Full House Refurbishment, Loft Conversions, Extensions, Kitchens, Bathrooms, Commercial Fit-Outs, Structural Repairs, Fine Finishing).
+- **`/projects` (Projects & Case Studies)**: Filterable London portfolio with interactive before/after comparisons and engineering challenges/solutions.
+- **`/process` (How We Work)**: Transparent 5-stage London delivery pipeline from site survey to 10-year warranty handover.
+- **`/calculator` (Cost Estimator)**: Interactive real-time London tender calculation with square-meter sliders, finish tiers, and borough factors.
+- **`/about` (About Us)**: London heritage, craftsmanship standards, team ethos, and multi-year structural guarantees.
+- **`/contact` (Site Audit Booking)**: Multi-step consultation booking form with reference code confirmation and direct London office details.
+
+---
 
 ## Getting Started
 
-First, run the development server:
-
+### 1. Install Dependencies
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Run the Development Server
+```bash
+npm run dev
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 3. Build for Production
+```bash
+npm run build
+npm run start
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Technology Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Framework**: [Next.js](https://nextjs.org/) (App Router, Turbopack)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: Vanilla CSS Design System with light-mode Neumorphism & CSS 3D Perspective
+- **Typography**: Apple SF Pro / Inter
+- **Icons**: Lucide React
+- **Target OS & Viewports**: Responsive mobile, tablet, and widescreen desktop
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+© 2026 Prime Builds. London, United Kingdom. All Rights Reserved.
